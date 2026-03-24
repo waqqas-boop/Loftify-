@@ -12,3 +12,10 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .cpcache/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
