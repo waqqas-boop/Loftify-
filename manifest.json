@@ -1,1 +1,25 @@
-{\n  "name": "Loftify",\n  "short_name": "Loftify",\n  "start_url": "/index.html",\n  "display": "standalone",\n  "background_color": "#ffffff",\n  "theme_color": "#6200ee",\n  "icons": [\n    {\n      "src": "images/icon-192x192.png",\n      "sizes": "192x192",\n      "type": "image/png"\n    },\n    {\n      "src": "images/icon-512x512.png",\n      "sizes": "512x512",\n      "type": "image/png"\n    }\n  ]\n}
+{
+  "name": "Loftify – Free Music",
+  "short_name": "Loftify",
+  "description": "Free music streaming. All premium features unlocked. No ads, no limits.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["music", "entertainment"],
+  "shortcuts": [
+    { "name": "Search Music", "url": "/#search" },
+    { "name": "Liked Songs",  "url": "/#liked"  }
+  ]
+}
